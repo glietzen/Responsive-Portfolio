@@ -162,6 +162,7 @@ footer h4 {
     .nested {
         display: grid;
         grid-template-columns: 1fr !important; 
+        width: 2dm;
         grid-gap: 1em;
         grid-auto-rows: minmax(100px, auto);
     }
@@ -226,10 +227,11 @@ footer h4 {
    
     .nested {
         display: grid;
-        grid-template-columns: 1fr !important; 
+        grid-template-columns: 1fr !important;
+        width: 250px; 
+        margin: auto;
         grid-gap: 1em;
         grid-auto-rows: minmax(100px, auto);
-        grid-auto-columns: minmax(100px, auto);
     }
 }
 
